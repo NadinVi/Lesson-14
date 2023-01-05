@@ -4,11 +4,11 @@ let newYear = [
         text: "Happy New Year! Out with the old, in with the new: may you be happy the whole year through"
     },
 
+
     {
         name: "Modern_Christmas_Tree_5_by_Merlin2525",
         text: "May this New Year brings you a peace filled life, warmth and togetherness in your family and much prosperity! Happy New Year!"
     },
-
 ];
 
 let merryChristmas = [
@@ -42,8 +42,6 @@ Array.prototype.cardsRender = function (folder) {
 newYear.cardsRender('first');
 
 
-
-
 Array.prototype.cardsSecondRender = function (folder) {
     const newArrSecond = this
         .map(function (character) {
@@ -62,6 +60,5 @@ Array.prototype.cardsSecondRender = function (folder) {
 </div>
 `)
 }
-
 
 merryChristmas.cardsSecondRender('second');
